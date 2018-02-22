@@ -1,0 +1,79 @@
+*{transition: all .1s ease-in;}
+
+body{
+	font-size: 20px;
+	font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif ;
+	font-weight: 500;
+	line-height: 1.3;
+	color: #FFF;
+	background: #383c43;
+	margin: 0;
+	border: 10px solid #fff;
+
+
+}
+.sl-header{
+	color: #ed8080;
+	text-align:  center;
+	background-color: #494d55;
+	padding: 20px 0 ;
+}
+h1{
+	font-size: 36px;
+	margin: 0;
+}
+h4{
+	font-size: 24px;
+	font-weight: 100;
+	margin: 0;
+}
+.sl-container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px;
+}
+.sl-shoping-list{
+	background-color: #8a839e;
+	margin:40px 0;
+	list-style: none;
+	padding: 0;
+
+}
+.sl-footer{
+	background-color: #494d55;
+	text-align:center;
+	color: #ed8080;
+
+	padding: 10px 0;
+}
+.sl-item-small {
+	font-size: 12px;
+	opacity: .5;
+}
+.sl-item-small:before {
+	content: "("
+}
+.sl-item-small:after {
+	content: ")"
+}
+.sl-shoping-list li {
+	padding: 5px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.sl-shoping-list li:nth-child(2n) {
+	background: #7c7493;
+}
+.sl-shoping-list li:hover {
+	background: #ed8080;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+.sl-shoping-list label {
+	display: block;
+	cursor: pointer;
+}
+.sl-shoping-list [type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	color: #8a839e;
+}
